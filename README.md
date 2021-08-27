@@ -4,5 +4,6 @@
 - [X] Correçao de bug
 - [X] Segurança
 - [X] Criação da pagina de login
+- [X] Criação do banco de dados
 - [ ] Criação das paginas
 - [ ] Implementação no Servidor do Cliente

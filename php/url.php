@@ -9,14 +9,14 @@ if (isset($_GET['pg'])) {
             if (is_file('php/' . $pagina[1] . '.php')) {
                 include $pagina[1] . '.php';
             } elseif (!isset($pagina[2])) {
-                echo "<script>alert ('Essa não e uma pagina valida!') ; </script>";             
+                echo "<script>alert ('Essa não e uma pagina valida1!') ; </script>";             
                 include "index.php";
             }
         } else {
             if (is_file('php/' . $pagina[0] . '.php')) {
                 include $pagina[0] . '.php';
             } else {
-                echo "<script>alert ('Essa não e uma pagina valida!') ; </script>";        
+                echo "<script>alert ('Essa não e uma pagina valida2!') ; </script>";        
                 include "index.php";
             }
         }
@@ -24,10 +24,10 @@ if (isset($_GET['pg'])) {
         if (is_file('php/' . $_GET['pg'] . '.php')) {
             include $_GET['pg'] . '.php';
         } else {
-            echo "<script>alert ('Essa não e uma pagina valida!') ; </script>";
+            echo "<script>alert ('Essa não e uma pagina valida3!') ; </script>";
             include "index.php";
         }
     }
 } else {
-    include "index.php";
+    include "main.php";
 }
