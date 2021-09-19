@@ -7,7 +7,7 @@
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', 'admin@mysql');
-define('BD', 'cartaz_db');
+define('BD', 'validade_db');
 define('DRIVER', 'mysql');
 
 class Conexao {

@@ -3,7 +3,7 @@ RewriteEngine ON
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*) index.php?pg=$1
+RewriteRule ^(.*)$ index.php?pg=$1 [L,NC]
 
 Options All -Indexes
 
@@ -14,6 +14,7 @@ Options All -Indexes
 </files>
 
 ErrorDocument 403 /
+ErrorDocument 404 /validade.com/php/pages/error
 
 <IfModule mod_expires.c>
     ExpiresActive On
