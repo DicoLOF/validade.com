@@ -29,5 +29,5 @@ if (isset($_GET['pg'])) {
         }
     }
 } else {
-    include "index.php";
+    include "../";
 }
