@@ -24,7 +24,7 @@
       <div class="container-login100">
         <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
           <form class="login100-form validate-form flex-sb flex-w" href="php/index.php" >
-            <span class="login100-form-title p-b-32"> Login </span>
+            <span class="login100-form-title p-b-32"> Logi </span>
             <span class="txt1 p-b-11"> Usuario </span>
             <div class="wrap-input100 validate-input m-b-36" data-validate="Usuario requerido" >
               <input class="input100" type="text" name="username" />
