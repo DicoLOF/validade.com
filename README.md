@@ -5,5 +5,5 @@
 - [X] Segurança
 - [X] Criação da pagina de login
 - [X] Criação do banco de dados
-- [ ] Criação das paginas
+- [X] Criação das paginas
 - [ ] Implementação no Servidor do Cliente
