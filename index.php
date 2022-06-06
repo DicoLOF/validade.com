@@ -1,7 +1,5 @@
 <?php 
-
- echo "teste de php"
-   
+  
 ?>
 
 <!DOCTYPE html>
